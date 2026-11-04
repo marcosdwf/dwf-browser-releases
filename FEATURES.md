@@ -23,6 +23,11 @@ usuário dentro do sistema, sem a distração de um navegador comum.
 - Links clicados **dentro** do sistema DWF funcionam normalmente — nada é
   bloqueado no back-end, para não travar nenhuma página legítima do sistema.
 
+### Identificação para o sistema
+- Cada guia se identifica como DWF Browser: `navigator.userAgent` e o cabeçalho
+  `User-Agent` terminam em `dwf_browser/<versão>` (ex.: `dwf_browser/1.7.0`).
+- Assim o sistema DWF consegue saber qual navegador e versão estão em uso.
+
 ### Sem favoritos
 - A barra de favoritos, o botão de estrela e o menu de favoritos ficam
   desativados, para uma interface enxuta voltada só ao DWF.
